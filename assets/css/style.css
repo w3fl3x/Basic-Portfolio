@@ -7,6 +7,8 @@ header {
     border: #cccccc;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    position: relative;
 }
 
 h1 {
@@ -30,9 +32,9 @@ footer {
 }
 
 .container {
-    background-color: #cccccc;
+    background-image: url("../images/gravel.png");
     border: #dddddd;
-    height: 1100px;
+    height: 0 auto;
     margin: 0 auto;
     position: relative;
 }
