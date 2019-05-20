@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     background: #0781be;
     border: #cccccc;
@@ -12,13 +16,23 @@ h1 {
 
 h2 {
     color: #0781be;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container {
     background-color: #cccccc;
     border: #dddddd;
-    height: 960px;
+    height: 1100px;
     margin: 0 auto;
+    position: relative;
+}
+
+.main-content {
+    background-color: white;
+    height: 960px;
+    padding: 40px;
+    position: absolute;
+    width: 960px;
 }
 
 #bio-image {
