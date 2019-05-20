@@ -1,5 +1,27 @@
 header {
-    background: #4aaaa5;
+    background: #0781be;
     border: #cccccc;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #0781be;
+}
+
+.container {
+    background-color: #cccccc;
+    border: #dddddd;
+    height: 960px;
+    margin: 0 auto;
+}
+
+#bio-image {
+    float: left;
+    padding: 10px;
 }
