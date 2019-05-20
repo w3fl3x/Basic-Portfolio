@@ -19,6 +19,16 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+footer {
+    background: #666666;
+    border-top: 8px solid #0781be;
+    color: white;
+    float: bottom;
+    font-size: 8px;
+    height: 40px;
+    text-align: center;
+}
+
 .container {
     background-color: #cccccc;
     border: #dddddd;
