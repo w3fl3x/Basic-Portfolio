@@ -39,9 +39,9 @@ footer {
 
 .main-content {
     background-color: white;
-    height: 960px;
-    padding: 40px;
-    position: absolute;
+    width: 960px;
+    padding: 40px;  
+    margin: auto;
     width: 960px;
 }
 
