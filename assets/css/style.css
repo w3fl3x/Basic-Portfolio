@@ -3,11 +3,8 @@ body {
 }
 
 .header {
-    
     border: #cccccc;
-    
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;  
 }
 
 h1 {
@@ -31,7 +28,7 @@ h2 {
 
 .container {
     background-image: url("../images/gravel.png");
-    border: #dddddd;
+    border-top: 1px solid #666666;
     height: 600px;
     margin: auto;
     clear: both;
@@ -47,6 +44,7 @@ h2 {
     
     width: 960px;
     position: relative;
+    top: 20px;
 }
 
 #bio-image {
