@@ -14,11 +14,11 @@ h1 {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: left;
-    padding: 20px;
+    padding: 20px 20px 25px 20px;
     position: relative;
     width: 205px;
+    height: 30px;
     margin-top: 0;
-    margin-bottom: 0;
 }
 
 h2 {
@@ -38,6 +38,7 @@ h2 {
     clear: both;
     overflow: auto;
     position: relative;
+    padding-top: 0;
 }
 
 .container2 {
@@ -124,6 +125,7 @@ footer {
     position: relative;
     display: inline-flex;
     
+    padding-bottom: 0;
 }
 
 #Contact {
