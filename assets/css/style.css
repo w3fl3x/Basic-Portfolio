@@ -41,7 +41,7 @@ h2 {
 .main-content {
     background-color: white;
     border: #dddddd;
-    padding: 40px;  
+    padding: 20px;  
     margin: auto;
     width: 960px;
     position: relative;
@@ -64,7 +64,40 @@ footer {
     width: 100%;
 }
 
-.resize {
-    width: 150px;
-    height: auto;
+.main-content1 {
+    background-color: white;
+    border: #dddddd;
+    padding: 20px;  
+    margin: auto;
+    width: 750px;
+    position: relative;
+    top: 20px;
+}
+
+.image {
+    position: relative;
+}
+
+#Airplane {
+    float: left;
+    padding: 15px 20px 20px 0;
+}
+
+#Bus {
+    float: left;
+    padding: 15px;
+}
+
+#Lambo {
+    float: left;
+    padding: 15px 20px 20px 0;
+}
+
+#Porsche {
+    float: left;
+    padding: 15px;
+}
+
+#Mini {
+    
 }
