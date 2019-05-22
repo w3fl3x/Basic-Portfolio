@@ -120,23 +120,31 @@ footer {
     
 }
 
+.header1 {
+    position: relative;
+    display: inline-flex;
+}
+
 #Contact {
+    color: #777777;
     float: right;
-    padding: 0 0 40px 30px;
+    padding: 10px 0 40px 30px;
     margin: auto;
     position: relative;
 }
 
 #Portfolio {
+    color: #777777;
     float: right;
-    padding: 0  0 40px 30px;
-    margin: auto;
+    padding: 10px 0 40px 30px;
+    margin: 0 auto;
     position: relative;
 }
 
 #About {
+    Color: #777777;
     float: right;
-    padding: 0 0 40px 0;
-    margin: auto;
+    padding: 10px 0 40px 30px;
+    margin: 0 auto;
     position: relative;
 }
