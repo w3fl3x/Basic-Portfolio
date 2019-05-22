@@ -119,3 +119,9 @@ footer {
     padding: 10px 20px 20px 0;
     
 }
+
+.links {
+    float: right;
+    position: relative;
+    display: inline-flex;
+}
