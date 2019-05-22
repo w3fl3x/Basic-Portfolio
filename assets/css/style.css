@@ -2,9 +2,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
+header {
     border: #cccccc;
-    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    /* margin-left: 100px;
+    margin: auto; */
 }
 
 h1 {
