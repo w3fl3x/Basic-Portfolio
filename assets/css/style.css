@@ -148,3 +148,7 @@ footer {
     margin: 0 auto;
     position: relative;
 }
+
+a:link {
+    text-decoration: none;
+}
