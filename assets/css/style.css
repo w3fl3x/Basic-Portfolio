@@ -80,24 +80,25 @@ footer {
 
 #Airplane {
     float: left;
-    padding: 15px 20px 20px 0;
+    padding: 10px 20px 20px 0;
 }
 
 #Bus {
     float: left;
-    padding: 15px;
+    padding: 10px 0 20px 10px;
 }
 
 #Lambo {
     float: left;
-    padding: 15px 20px 20px 0;
+    padding: 10px 20px 20px 0;
 }
 
 #Porsche {
     float: left;
-    padding: 15px;
+    padding: 10px 0 20px 10px;
 }
 
 #Mini {
+    padding: 10px 20px 20px 0;
     
 }
