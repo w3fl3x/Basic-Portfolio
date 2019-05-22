@@ -16,7 +16,9 @@ h1 {
     margin: left;
     padding: 20px;
     position: relative;
-    width: 210px;
+    width: 205px;
+    margin-top: 0;
+    
 }
 
 h2 {
@@ -38,12 +40,18 @@ h2 {
     position: relative;
 }
 
-.main-content {
+.container2 {
     background-color: white;
     border: #dddddd;
-    padding: 20px;  
     margin: auto;
     width: 960px;
+    position: relative;
+    top: 20px;
+}
+
+.main-content {
+    padding: 20px;  
+    margin: auto;
     position: relative;
     top: 20px;
 }
@@ -64,6 +72,15 @@ footer {
     width: 100%;
 }
 
+.container3 {
+    background-color: white;
+    border: #dddddd;
+    margin: auto;
+    width: 750px;
+    position: relative;
+    top: 20px;
+}
+
 .main-content1 {
     background-color: white;
     border: #dddddd;
@@ -71,7 +88,7 @@ footer {
     margin: auto;
     width: 750px;
     position: relative;
-    top: 20px;
+    
 }
 
 .image {
