@@ -152,3 +152,24 @@ footer {
 a:link {
     text-decoration: none;
 }
+
+form {
+    color: #777777;
+    width: 900px;
+    border 1px solid #999;
+}
+
+input, textarea {
+    color: #777777;
+    width: 750px;
+}
+
+textarea {
+    height: 12em;
+}
+
+button {
+    background: #0781be;
+    color: white;
+    padding: 5px 15px 5px 15px;
+}
