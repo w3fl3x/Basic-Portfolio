@@ -50,10 +50,11 @@ h2 {
 }
 
 .main-content {
+    border: 1px solid #dddddd;
     padding: 20px;  
     margin: auto;
     position: relative;
-    top: 20px;
+    
 }
 
 #bio-image {
@@ -83,7 +84,7 @@ footer {
 
 .main-content1 {
     background-color: white;
-    border: #dddddd;
+    border: 1px solid #dddddd;
     padding: 20px;  
     margin: auto;
     width: 750px;
@@ -155,16 +156,20 @@ a:link {
 
 form {
     color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
     width: 900px;
     border 1px solid #999;
 }
 
 input, textarea {
     color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
     width: 750px;
 }
 
 textarea {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
     height: 12em;
 }
 
