@@ -18,7 +18,7 @@ h1 {
     position: relative;
     width: 205px;
     margin-top: 0;
-    
+    margin-bottom: 0;
 }
 
 h2 {
@@ -120,8 +120,23 @@ footer {
     
 }
 
-.links {
+#Contact {
     float: right;
+    padding: 0 0 40px 30px;
+    margin: auto;
     position: relative;
-    display: inline-flex;
+}
+
+#Portfolio {
+    float: right;
+    padding: 0  0 40px 30px;
+    margin: auto;
+    position: relative;
+}
+
+#About {
+    float: right;
+    padding: 0 0 40px 0;
+    margin: auto;
+    position: relative;
 }
