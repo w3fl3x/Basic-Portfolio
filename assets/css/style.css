@@ -89,16 +89,24 @@ footer {
     margin: auto;
     width: 750px;
     position: relative;
-    
 }
 
-.image {
-    position: relative;
-}
+
 
 #Airplane {
+    position: relative;
     float: left;
     padding: 10px 20px 20px 0;
+}
+
+#Flight {
+    position: absolute;
+    background: #0781be;
+    color: white;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    line-height: 50px;
 }
 
 #Bus {
@@ -124,8 +132,16 @@ footer {
 .header1 {
     position: relative;
     display: inline-flex;
-    
     padding-bottom: 0;
+}
+
+.main-nav {
+    padding-left: 440px;
+}
+
+.main-nav1 {
+    position: relative;
+    padding-left: 200px;
 }
 
 #Contact {
@@ -182,3 +198,4 @@ button {
     color: white;
     padding: 5px 15px 5px 15px;
 }
+
