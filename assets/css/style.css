@@ -5,7 +5,6 @@ html, body {
 }
 
 header {
-    border: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -36,7 +35,7 @@ h2 {
     min-height: 100vh;
     margin: 0 auto;
     clear: both;
-    overflow: auto;
+    overflow: hidden;
     position: relative;
     padding-top: 0;
 }
@@ -55,6 +54,7 @@ h2 {
     padding: 20px;  
     margin: auto;
     position: relative;
+    overflow: auto;
 }
 
 #bio-image {
@@ -69,6 +69,7 @@ footer {
     font-size: 8px;
     height: 40px;
     text-align: center;
+    line-height: 50px;
     bottom: 0;
     width: 100%;
 }
@@ -76,10 +77,11 @@ footer {
 .container3 {
     background-color: white;
     border: #dddddd;
-    margin: auto;
-    width: 750px;
+    margin: 0 auto;
+    width: 790px;
     position: relative;
     top: 20px;
+    overflow: hidden;
 }
 
 .main-content1 {
@@ -89,65 +91,108 @@ footer {
     margin: auto;
     width: 750px;
     position: relative;
+    overflow: hidden;
 }
 
-
-
-#Airplane {
+.image1 {
     position: relative;
     float: left;
-    padding: 10px 20px 20px 0;
+    padding: 10px 30px 15px 0;
 }
 
-#Flight {
+.Scenic {
     position: absolute;
     background: #0781be;
     color: white;
     height: 50px;
     width: 250px;
     text-align: center;
-    line-height: 50px;
+    top: 130px;
 }
 
-#Bus {
+.image2 {
+    position: relative;
     float: left;
-    padding: 10px 0 20px 10px;
+    padding: 10px 30px 15px 0;
 }
 
-#Lambo {
+.Tour {
+    position: absolute;
+    background: #0781be;
+    color: white;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    top: 130px;
+}
+
+.image3 {
+    position: relative;
     float: left;
-    padding: 10px 20px 20px 0;
+    padding: 10px 30px 15px 0;
 }
 
-#Porsche {
+.Speed {
+    position: absolute;
+    background: #0781be;
+    color: white;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    top: 130px;
+}
+
+.image4 {
+    position: relative;
     float: left;
-    padding: 10px 0 20px 10px;
+    padding: 10px 30px 15px 0;
 }
 
-#Mini {
-    padding: 10px 20px 20px 0;
-    
+.Luxury {
+    position: absolute;
+    background: #0781be;
+    color: white;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    top: 130px;
+}
+
+.image5 {
+    position: relative;
+    float: left;
+    padding: 10px 30px 15px 0; 
+}
+
+.Fun {
+    position: absolute;
+    background: #0781be;
+    color: white;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    top: 130px;
 }
 
 .header1 {
     position: relative;
     display: inline-flex;
     padding-bottom: 0;
+    bottom: 0;
 }
 
 .main-nav {
     padding-left: 440px;
 }
 
-.main-nav1 {
-    position: relative;
-    padding-left: 200px;
+.nav2 {
+    padding-left: 270px;
 }
 
 #Contact {
     color: #777777;
     float: right;
-    padding: 10px 0 40px 24px;
+    padding: 10px 0 0px 24px;
     margin: auto;
     position: relative;
 }
@@ -155,21 +200,21 @@ footer {
 #Portfolio {
     color: #777777;
     float: right;
-    padding: 10px 0 40px 24px;
-    margin: 0 auto;
+    padding: 10px 0 0 24px;
+    margin: auto;
     position: relative;
 }
 
 #About { 
     Color: #777777;
     float: right;
-    padding: 10px 0 40px 24px;
-    margin: 0 auto;
+    padding: 10px 0 0 24px;
+    margin: auto;
     position: relative;
 }
 
-a:link {
-    text-decoration: none;
+ul {
+    list-style-type: none;
 }
 
 form {
