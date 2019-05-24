@@ -175,6 +175,10 @@ footer {
     top: 130px;
 }
 
+.image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover {
+    opacity: 0.7;
+}
+
 .header1 {
     position: relative;
     display: inline-flex;
