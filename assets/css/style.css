@@ -5,6 +5,7 @@ html, body {
 }
 
 header {
+    color: #777777;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -189,8 +190,20 @@ footer {
     padding-left: 270px;
 }
 
-#Contact {
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
     color: #777777;
+}
+
+a:hover {
+    color: #0781be;
+}
+
+#Contact {
+    
     float: right;
     padding: 10px 0 0px 24px;
     margin: auto;
@@ -198,7 +211,7 @@ footer {
 }
 
 #Portfolio {
-    color: #777777;
+    
     float: right;
     padding: 10px 0 0 24px;
     margin: auto;
@@ -206,15 +219,11 @@ footer {
 }
 
 #About { 
-    Color: #777777;
+    
     float: right;
     padding: 10px 0 0 24px;
     margin: auto;
     position: relative;
-}
-
-ul {
-    list-style-type: none;
 }
 
 form {
@@ -244,3 +253,6 @@ button {
     padding: 5px 15px 5px 15px;
 }
 
+button:hover {
+    background-color: #c2c2c2;
+}
