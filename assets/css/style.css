@@ -175,7 +175,11 @@ footer {
     top: 130px;
 }
 
-.image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover {
+.image1:hover, 
+.image2:hover, 
+.image3:hover, 
+.image4:hover, 
+.image5:hover {
     opacity: 0.7;
 }
 
@@ -187,15 +191,20 @@ footer {
 }
 
 .main-nav {
-    padding-left: 440px;
+    padding-left: 433px;
 }
 
 .nav2 {
-    padding-left: 270px;
+    padding-left: 263px;
 }
 
 a {
     text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
 }
 
 a:link, a:visited {
