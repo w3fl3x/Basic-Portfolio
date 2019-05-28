@@ -9,6 +9,47 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.header1 {
+    position: relative;
+    display: inline-flex;
+    padding-bottom: 0;
+    bottom: 0;
+}
+
+.main-nav {
+    padding-left: 433px;
+}
+
+.nav2 {
+    padding-left: 263px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a:link, a:visited {
+    color: #777777;
+}
+
+a:hover {
+    color: #0781be;
+}
+
+#About,
+#Portfolio,
+#Contact {
+    float: right;
+    padding: 10px 0 0px 24px;
+    margin: auto;
+    position: relative;
+}
+
 h1 {
     background: #0781be;
     color: white;
@@ -50,31 +91,6 @@ h2 {
     top: 20px;
 }
 
-.main-content {
-    border: 1px solid #dddddd;
-    padding: 20px;  
-    margin: auto;
-    position: relative;
-    overflow: auto;
-}
-
-#bio-image {
-    float: left;
-    padding: 0px 20px 20px 0;
-}
-
-footer {
-    background: #666666;
-    border-top: 8px solid #0781be;
-    color: white;
-    font-size: 8px;
-    height: 40px;
-    text-align: center;
-    line-height: 50px;
-    bottom: 0;
-    width: 100%;
-}
-
 .container3 {
     background-color: white;
     border: #dddddd;
@@ -85,6 +101,14 @@ footer {
     overflow: hidden;
 }
 
+.main-content {
+    border: 1px solid #dddddd;
+    padding: 20px;  
+    margin: auto;
+    position: relative;
+    overflow: auto;
+}
+
 .main-content1 {
     background-color: white;
     border: 1px solid #dddddd;
@@ -93,6 +117,11 @@ footer {
     width: 750px;
     position: relative;
     overflow: hidden;
+}
+
+#bio-image {
+    float: left;
+    padding: 0px 20px 20px 0;
 }
 
 .image1 {
@@ -183,62 +212,6 @@ footer {
     opacity: 0.7;
 }
 
-.header1 {
-    position: relative;
-    display: inline-flex;
-    padding-bottom: 0;
-    bottom: 0;
-}
-
-.main-nav {
-    padding-left: 433px;
-}
-
-.nav2 {
-    padding-left: 263px;
-}
-
-a {
-    text-decoration: none;
-}
-
-li {
-    list-style: none;
-    display: inline-block;
-}
-
-a:link, a:visited {
-    color: #777777;
-}
-
-a:hover {
-    color: #0781be;
-}
-
-#Contact {
-    
-    float: right;
-    padding: 10px 0 0px 24px;
-    margin: auto;
-    position: relative;
-}
-
-#Portfolio {
-    
-    float: right;
-    padding: 10px 0 0 24px;
-    margin: auto;
-    position: relative;
-}
-
-#About { 
-    
-    float: right;
-    padding: 10px 0 0 24px;
-    margin: auto;
-    position: relative;
-}
-
 form {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
@@ -268,4 +241,16 @@ button {
 
 button:hover {
     background-color: #c2c2c2;
+}
+
+footer {
+    background: #666666;
+    border-top: 8px solid #0781be;
+    color: white;
+    font-size: 8px;
+    height: 40px;
+    text-align: center;
+    line-height: 50px;
+    bottom: 0;
+    width: 100%;
 }
