@@ -124,76 +124,20 @@ h2 {
     padding: 0px 20px 20px 0;
 }
 
-.image1 {
-    position: relative;
-    float: left;
-    padding: 10px 30px 15px 0;
-}
-
-.Scenic {
-    position: absolute;
-    background: #0781be;
-    color: white;
-    height: 50px;
-    width: 250px;
-    text-align: center;
-    top: 130px;
-}
-
-.image2 {
-    position: relative;
-    float: left;
-    padding: 10px 30px 15px 0;
-}
-
-.Tour {
-    position: absolute;
-    background: #0781be;
-    color: white;
-    height: 50px;
-    width: 250px;
-    text-align: center;
-    top: 130px;
-}
-
-.image3 {
-    position: relative;
-    float: left;
-    padding: 10px 30px 15px 0;
-}
-
-.Speed {
-    position: absolute;
-    background: #0781be;
-    color: white;
-    height: 50px;
-    width: 250px;
-    text-align: center;
-    top: 130px;
-}
-
-.image4 {
-    position: relative;
-    float: left;
-    padding: 10px 30px 15px 0;
-}
-
-.Luxury {
-    position: absolute;
-    background: #0781be;
-    color: white;
-    height: 50px;
-    width: 250px;
-    text-align: center;
-    top: 130px;
-}
-
+.image1,
+.image2,
+.image3,
+.image4,
 .image5 {
     position: relative;
     float: left;
-    padding: 10px 30px 15px 0; 
+    padding: 10px 30px 15px 0;
 }
 
+.Scenic,
+.Tour,
+.Speed,
+.Luxury,
 .Fun {
     position: absolute;
     background: #0781be;
