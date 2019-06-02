@@ -1,5 +1,6 @@
 * {
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
     padding: 0;
 }
 
@@ -7,6 +8,7 @@ html, body {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
+    margin-top: 0;
 }
 
 header {
@@ -22,11 +24,11 @@ header {
 }
 
 .main-nav {
-    padding-left: 433px;
+    padding-left: 473px;
 }
 
 .nav2 {
-    padding-left: 263px;
+    padding-left: 303px;
 }
 
 a {
@@ -50,7 +52,7 @@ a:hover {
 #Portfolio,
 #Contact {
     float: right;
-    padding: 10px 0 0px 24px;
+    padding: 12px 0 0px 24px;
     margin: auto;
     position: relative;
 }
